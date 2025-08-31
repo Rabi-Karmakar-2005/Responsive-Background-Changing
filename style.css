@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+}
+
+.background_image_container{
+    width:100%;
+    height:100vh;
+    /* background-image: url("background4.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index:-1;
+    position:fixed;
+    top:0;
+}
+
+.JS_invisible{
+    transition:2s;
+    opacity:0;
+}
+
+.js_Arise{
+    transition:2s;
+    opacity:1;
+}
+
+.texts{
+    width:30%;
+    min-width:350px;
+    position:absolute;
+    top:40%;
+    left:10%;
+    color:white;
+    margin:0 1rem;
+    padding-right:2.5rem;
+}
+
+.texts span,p{
+    color:rgb(223, 222, 222);
+    font-size: 1rem;
+    
+}
+
+.texts big{
+    font-weight:bold;
+    font-size:1.5rem;
+}
+
+.texts p{
+    margin-top:1rem;
+}
+
+.learn_more{
+    padding:.5rem 3rem;
+    margin-top:2rem;
+    font-weight:bolder;
+    border:3px solid white;
+    background:none;
+    color:white;
+}
+
+
+.learn_more:hover{
+    color:black;
+    background-color:white;
+    filter:drop-shadow(2px 3px 5px rgb(190, 189, 189));
+}
+
+.arrows{
+    position:absolute;
+    top:48%;
+    color:white;
+}
+
+.arrow1{
+    position:fixed;
+    left:10px;
+    background-color: rgb(176, 175, 175);
+    padding:.5rem;
+}
+
+.arrow2{
+    position:fixed;
+    right:10px;
+    background-color: rgb(176, 175, 175);
+    padding:.5rem;
+}
+
+.JS_Hidden{
+    visibility:hidden;
+}
+ 
+.arrow1:hover,.arrow2:hover{
+    background-color:rgb(135, 133, 133);
+}
